@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Product Single Page</title>
+    
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<!--    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.js"></script>-->
+    
+</head>
+<body>
+    <div class="alert alert-block text-center" id="block-hide">
+      <button type="button" class="close" data-dismiss="alert" id="close-message">&times;</button>
+      Start selling your products or buy them from anywhere!
+    </div>
+    
+        
+    
+    <nav class="navbar">
+        <div class="container">
+             <div class="col-md-12 navbar-alright">
+                <div class="col-md-5 img-usd">
+                    <a href="#">
+                        <img src="img/USA-flag.png"  ></b>
+                         <select class="border-focus">
+                            <option value="">USD</option>
+                            <option value="">UK</option>
+                            <option value="">RU</option>
+                        </select>
+                    </a>
+                </div>
+                <a href="#" class="navbar-brand col-md-offset-2 col-md-4 logo">
+                    Bonfire
+                </a>
+                <div class=" col-md-2 col-md-offset-1 ">
+                    <button type="button" class="btn-one btn-lg text-right">Cart(3)</button>
+                </div>
+            </div>
+         </div>
+    </nav>
+        <div class="container">
+             <div class="col-md-12 cont-block ">
+                 <div class="col-md-1"><a href="#" ><i class="fas fa-align-justify"></i></a></div>
+                <div class="col-md-8 col-md-offset-2">
+                     <ul class="nav navbar-nav nav-pills li-transform">
+                      
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">men<b class="caret"></b></a></li>
+                        <li><a href="#">women<b class="caret"></b></a></li>
+                        <li><a href="#">lookbook</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">blog</a></li>
+
+                    </ul>
+                </div>
+                    
+                     <div class="aa ">
+                         <a href="#" class="col-md-2"><i class="far fa-heart"></i></a>
+                         <img src="img/Shape.png"  class="icon-img">
+                         <a href="#" ><i class="fas fa-search"></i></a>
+                     </div>
+                      
+                      
+            </div>
+         </div>
+         <div class="container-fluid line"></div>
+         
+         <div class="container">
+           <div class="row">
+            <div class="col-md-7 ">
+                <div class="img_bcg" >
+                   <img src="img/cat.jpg" id="preview" style="width: 100%; height: 683px;"> 
+                </div>
+                 <button class="pointer" id="slider-right"><i class="fas fa-chevron-right"></i></button>
+                 <button class="pointer" id="slider-left"><i class="fas fa-chevron-left"></i></button>
+               
+                  <div id="slider">
+        <div id="polosa">
+            <img src="img/cat.jpg" onclick="preview(this)">
+            <img src="img/1.jpg" onclick="preview(this)">
+<!--             <img src="https://loremflickr.com/320/240 " onclick="preview(this)" />-->
+            <img src="img/2.jpg" onclick="preview(this)">
+            <img src="img/3.jpg" onclick="preview(this)">
+            <img src="img/4.jpg" onclick="preview(this)">            
+            <img src="img/5.jpg" onclick="preview(this)">
+            <img src="img/6.jpg" onclick="preview(this)">
+        </div>
+    </div>
+
+                </div>            
+              <div class="col-md-5">
+               <div class="title-woman">
+                   <span>‹ Back to <a href="#">Woman</a></span>
+               </div>
+               <div>
+                   <h2>The Atelier Tailored Coat</h2>
+                   <div class="star-img">
+                   <a>
+                    <div class="rating">
+                        <input type="radio" name="star" id="star1" checked="checked" />
+                        <label for="star1"><div class="star"></div></label>
+                        <input type="radio" name="star" id="star2" />
+                        <label for="star2"><div class="star"></div></label>
+                        <input type="radio" name="star" id="star3" />
+                        <label for="star3"><div class="star"></div></label>
+                        <input type="radio" name="star" id="star4" />
+                        <label for="star4"><div class="star"></div></label>
+                        <input type="radio" name="star" id="star5" />
+                        <label for="star5"><div class="star"></div></label>
+                    </div>
+                    </a>
+                   <span class="star-review"> 
+                               <a href="#">3 Review(s)</a> 
+                    </span>
+                    <a href="#" class="add-rew">add a review</a>
+                   </div>
+                   <div class="price">
+                       <h2>$499.00</h2>
+                       <p>Availability : <span>In stock</span></p>
+                       <p>Product Code : <span>#4657</span></p>
+                       <p>Tags : <span>Fashion, Hood, Classic</span></p>
+                       <div class="information">Sleek, polished, and boasting an impeccably modern fit, this blue, 2-but-
+                       ton Lazio suit features a notch lapel, flap pockets, and accompanying flat
+                       front trousers—all in pure wool by Vitale Barberis Canonico.</div>
+                   </div>
+                   <div class="marker-product">
+                       <li>Dark blue suit for a tone-on-tone look</li>
+                       <li>Regular fit</li>
+                       <li>100% Cotton</li>
+                       <li>Free shipping with 4 days delivery</li>
+                    </div>
+                    <div class="select-all ">
+                       <div class="row">                       
+                            <div class="select-color col-lg-5">
+                                <p>Color</p>
+                                <select class="size-select ">
+                                    <option value="">Select color</option>
+                                    <option value="">green</option>
+                                    <option value="">orange</option>
+                                    <option value="">yellow</option>
+                                </select>
+                            </div>
+                        <div class="select-size col-lg-5">
+                            <p>Size</p>
+                            <select class="size-select">
+                                <option value="">S</option>
+                                <option value="">M</option>
+                                <option value="">L</option>
+                                <option value="">XS</option>
+                            </select>
+                        </div>
+                        <div class="select-count col-lg-2">
+                            <p>Qty</p>
+                            <select class="size-select coutn-sel">
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                            </select>
+                        </div>
+                    </div>
+                </div> 
+                <div class="clear-selection">
+                    <a href="#">Clear selection</a>
+                </div>
+                <div class="two-button">
+                    <button type="button" class="btn-lg btn-decoration">Add to cart</button>
+                    <button type="button" class="btn-lg btn-decoration "><i class="far fa-heart heart fa-2x "></i>Add to wishlist</button>
+                </div>
+                <div col-md-5>
+                        <div class="line-link"></div>
+                            <a class="share">Share this</a> 
+                            
+                            <a href="#"><img src="img/facebook.png" class="icon-img sizeshare"></a>
+                            <a href="#"><img src="img/Share.png"  class="icon-img sizeshare"></a>
+                            <a href="#"><img src="img/count.png"  class="icon-img sizeshare"></a>
+                            
+                            <a href="#" class="tweet-margin"><img src="img/Tweet.png"  class="icon-img sizeshare"></a>
+                            <a href="#"><img src="img/count.png"  class="icon-img sizeshare"></a>
+                            
+                            <a href="#" class="pin-margin"><img src="img/pin.png"  class="icon-img sizeshare"></a>
+                            <a href="#"><img src="img/pincount.png"  class="icon-img sizeshare"></a>
+                        <div class="line-link"></div> 
+                </div>
+               </div>
+               </div>
+            </div> 
+        </div>
+        
+        <div class="footer">
+            <div class="container">
+                <div class="text-center">Made with Love & Coffee © 2015 Design Lazy. All Rights Reserved.</div>
+            </div>
+        </div>
+
+
+<script>
+          document.getElementById('close-message').onclick = function() {
+                document.getElementById('block-hide').style.display = 'none';
+            }
+          
+          
+          document.getElementById('slider-left').onclick = sliderLeft;
+        document.getElementById('slider-right').onclick = sliderRight;
+       
+        var left = 0;
+        
+        function sliderRight(){
+            var polosa = document.getElementById('polosa');
+            left = left - 128;
+            if(left < -382){ /*384?*/
+                left = 0;
+            }
+            polosa.style.left = left +'px';
+        }
+        
+        function sliderLeft(){
+            var polosa = document.getElementById('polosa');
+            left = left + 128;
+            if(left > 122){
+                left = 0;
+            }
+            polosa.style.left = left +'px';
+        }
+        
+        function preview (obj) {
+			var pictureUrl = obj.src;
+			document.getElementById("preview").src = pictureUrl;
+		}
+        </script>
+</body>
+</html>
+
+
+           
